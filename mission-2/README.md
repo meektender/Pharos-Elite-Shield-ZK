@@ -14,3 +14,18 @@ The goal of this mission was to bridge a Web3 wallet connection with a Zero-Know
 1. Connect any MetaMask wallet.
 2. Click "Generate ZK-Proof."
 3. Wait for the "Shielded Identity" computation to complete to gain access.
+---
+
+## 📸 Technical Walkthrough
+
+Here is the "Gatekeeper" flow in action:
+
+| Step 1: Secure Entry | Step 2: Proof Generation |
+|---|---|
+| ![Connect Wallet](screenshots/image1.png) | ![Generating ZK-Proof](screenshots/image2.png) |
+| *Users connect their Pharos-compatible wallet.* | *SnarkJS begins shielding the user's identity.* |
+
+| Step 3: Math Processing | Step 4: Access Granted |
+|---|---|
+| ![Loading State](screenshots/image3.png) | ![Lounge Access](screenshots/image4.png) |
+| *Computing the witness and verifying the proof.* | *Success! The Elite Lounge is unlocked.* |
