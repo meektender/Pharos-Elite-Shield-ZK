@@ -3,7 +3,7 @@
 ## 🏆 Milestone: 100th Contract Deployment
 This project marks a major milestone: my **100th smart contract deployment** on the Pharos Atlantic Testnet. This reflects my commitment to the ecosystem and technical proficiency, currently ranked in the **Top 0.05%** of network participants.
 
-## 🧬 Mathematical Foundation (Mission 1)
+## 🧬 Mathematical Foundation
 The security of this lounge is powered by **Groth16 Zero-Knowledge Proofs (zk-SNARKs)**.
 * **The Secret ($s$):** A private key known only to the user.
 * **The Public Signal ($p$):** $p = s^2$.
