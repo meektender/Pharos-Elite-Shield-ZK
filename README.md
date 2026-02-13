@@ -1,24 +1,19 @@
-# Pharos Elite Shield (ZK-Proof)
+# Pharos Elite Shield: ZK-Identity Lounge 🛡️
 
-### 🛡️ Overview
-This repository contains a Zero-Knowledge proof system built for the **Pharos Atlantic Incubator**. The project allows users to prove they meet "Elite" status (based on transaction count and bridging activity) without revealing their actual wallet statistics.
+## 🏆 Milestone: 100th Contract Deployment
+This project marks a major milestone: my **100th smart contract deployment** on the Pharos Atlantic Testnet. This reflects my commitment to the ecosystem and technical proficiency, currently ranked in the **Top 0.05%** of network participants.
 
-### 🚀 Technical Stack
-- **Circuit:** Circom 2.0
-- **Proof System:** Groth16
-- **Smart Contract:** Solidity (Verifier)
-- **Deployment:** Pharos Atlantic Testnet
+## 🧬 Mathematical Foundation (Mission 1)
+The security of this lounge is powered by **Groth16 Zero-Knowledge Proofs (zk-SNARKs)**.
+* **The Secret ($s$):** A private key known only to the user.
+* **The Public Signal ($p$):** $p = s^2$.
+* **The Proof:** The system verifies that the user knows $s$ such that the circuit constraints are met without the user ever revealing $s$.
 
-### 🔗 Proof of Deployment
-- **Contract Address:** [0x5D3334F9f2e1eF52326915cd3dA36d2EE9dc894d]
-- **Verification Status:** Fully Verified on Pharoscan
+## 🚀 System Architecture
+* **The Shield (M3):** A Soulbound NFT (SBT) at `0x7E26EA0Ab4393b09e37d48458Bb75A2c10f99465`.
+* **The Gatekeeper (M1):** A ZK-Verifier contract at `0x5D3334F9f2e1eF52326915cd3dA36d2EE9dc894d`.
+* **The Interface (M2):** A custom Web3 dApp for real-time verification and badge minting.
 
-### 🧩 Logic
-The circuit checks for two private signals:
-1. `txCount` >= 500
-2. `hasBridged` == 1
-
-If both conditions are met, the circuit outputs a public signal of `1`.
-
-### 🛠️ How to Verify
-The verifier contract is deployed and verified. You can test the proof verification directly on the Pharos Explorer using the `verifyProof` function.
+## 🔗 On-Chain Verification
+* **Verified Contract:** [View on Pharoscan](https://atlantic.pharosscan.xyz/address/0x7E26EA0Ab4393b09e37d48458Bb75A2c10f99465#code)
+* **Status:** Fully Functional & Soulbound (Non-Transferable)
